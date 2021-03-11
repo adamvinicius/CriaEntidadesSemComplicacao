@@ -1,0 +1,32 @@
+{
+	"first_name":"Adam",
+	"last_name":"Luchini",
+	"address":"mauro",
+	"email":"adamvinicius@gmail.com",
+	"phone":"121212121",
+	"gender":"male",
+	"hobbies":[
+		"Cricket", 
+		"Movies"
+	],
+	"languages":[
+		{
+			"name":"English"
+		},
+		{
+			"name":"Japanese"
+		}
+	],
+	"skill":"APIs",
+	"country":"Brazil",
+	"country2":"Japan",
+	"date_of_birth":{
+		"year":1988,
+		"month":10,
+		"day":12
+	},
+	"password":"Senha123",
+	"confirm_password":"Senha123",
+	"file":"base64"
+	
+}
