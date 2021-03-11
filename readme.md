@@ -1,1 +1,1 @@
-*Cria Entidades
+#Cria Entidades
