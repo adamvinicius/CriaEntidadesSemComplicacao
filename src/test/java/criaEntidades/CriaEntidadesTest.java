@@ -10,7 +10,7 @@ class CriaEntidadesTest {
 
 	@Test
 	void testCriaEntidades() throws IOException {
-		CriaEntidades criaEntidades = new CriaEntidades("lib/teste.json", "register");
+		CriaEntidades criaEntidades = new CriaEntidades("lib/teste.json", "Token");
 		criaEntidades.exibeMaps();
 	}
 

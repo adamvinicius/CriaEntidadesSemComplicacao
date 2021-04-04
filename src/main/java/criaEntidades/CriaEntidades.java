@@ -52,7 +52,14 @@ public class CriaEntidades {
 		String classe = StringUtils.capitalize(underscoreToCamelCase(entidade));
 		metodos += "\n    public LinkedHashMap<String, Object> get"+classe+"() {";
 		metodos += "\n        return "+underscoreToCamelCase(entidade)+";";
-		metodos += "\n    }\n}";
+		metodos += "\n    }"
+				 + "\n    public void set"+classe+"(String key, Object value){"
+				 + "\n        "+underscoreToCamelCase(entidade)+".put(key, value);"
+				 + "\n    }"
+				 + "\n    public void remove(String key){"
+				 + "\n        "+underscoreToCamelCase(entidade)+".remove(key);"
+				 + "\n    }"
+				 + "\n}";
 		
 		return metodos;
 	}
